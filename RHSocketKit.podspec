@@ -3,13 +3,13 @@ Pod::Spec.new do |s|
   s.name         = "RHSocketKit"
   s.version      = "2.3.7"
   s.summary      = "A socket kit based on CocoaAsyncSocket."
-  s.homepage     = "https://github.com/zhu410289616/RHSocketKit"
+  s.homepage     = "https://github.com/lyleLH/RHSocketKit"
   s.license      = { :type => "Apache", :file => "LICENSE" }
   s.author       = { "zhu410289616" => "zhu410289616@163.com" }
 
   s.ios.deployment_target = "7.0"
   s.osx.deployment_target = "10.9"
-  s.source       = { :git => "https://github.com/zhu410289616/RHSocketKit.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/lyleLH/RHSocketKit.git", :tag => s.version.to_s }
 
   s.default_subspec = "Core"
 
